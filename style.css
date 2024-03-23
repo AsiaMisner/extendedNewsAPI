@@ -1,0 +1,170 @@
+body {
+    font-family: 'Playfair Display';
+    background-color: #FFE0CF;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+}
+
+#h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -140px;
+}
+
+h1 {
+    letter-spacing: -0.12em;
+    font-size: 150px;
+    color: #472817;
+    font-weight: bolder;
+}
+
+#lang {
+    margin-top: 45px;
+    font-size: 25px;
+}
+
+#h2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    margin-bottom: -40px;
+    color: #472817;
+}
+
+.lineFirst hr {
+    border-top: 4px solid #5D311B;
+}
+
+.line hr {
+    border-top: 4px solid #5D311B;
+    opacity: 50%;
+}
+
+.lineThird hr {
+    border-top: 4px solid #5D311B;
+    opacity: 25%;
+    width: 950px;
+}
+
+.lineFourth hr {
+    border-top: 4px solid #5D311B;
+    opacity: 25%;
+}
+
+.verLine {
+    border-left: 4px solid #5D311B;
+    height: auto;
+    opacity: 25%;
+    margin-top: 300px;
+}
+
+#keywords {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 2%;
+    font-size: 40px;
+    margin-top: -25px;
+    margin-bottom: -25px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#live {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 50px;
+    background-color: #902813;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+#mainNewsContainer {
+    display: flex;
+    gap: 200px
+}
+
+#news {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    height: auto;
+    padding-right: 100px;
+}
+
+.newsHeadline {
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 80px;
+    font-weight: bolder;
+    color: #321B0F;
+    max-width: 3200px;
+}
+
+#imgdetails {
+    display: flex;
+    gap: 100px;
+    font-size: 40px;
+    margin-bottom: 150px;
+}
+
+li::marker {
+    color: #B87E5E;
+    font-size: 5rem;
+}
+
+li {
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+#sumList li::marker {
+    color: rgba(56, 76, 30, 0.7);
+    font-size: 5rem;
+}
+
+#details {
+    max-width: 1300px;
+    min-width: 600px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+#summary {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+#summary h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #321B0F;
+}
+
+#sideline h4 {
+    font-weight: 400;
+    opacity: 75%;
+    color: #472817;
+}

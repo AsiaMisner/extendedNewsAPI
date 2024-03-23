@@ -4,12 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple News App</title>
+    <title>News App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
 </head>
 
-<body>
-    <h1>Top Headlines</h1>
-    <div id="news"></div>
+<body id="body">
+    <div id="header">
+        <div id="h1">
+            <h1>The Nucamp Post</h1>
+        </div>
+        <div id="h2">
+        </div>
+        <div class="lineFirst">
+            <hr>
+        </div>
+        <div id="keywords">
+            <p id='us'>US</p>
+            <p id='cn'>China</p>
+            <p id='ru'>Russia</p>
+            <p>Worldwide</p>
+            <p>Business</p>
+            <p>Entertainment</p>
+            <p>General</p>
+            <p>Health</p>
+            <p>Science</p>
+            <p>Sports</p>
+            <p>Technology</p>
+        </div>
+        <div class="line">
+            <hr>
+        </div>
+    </div>
+    <div id="container">
+        <div id="live">
+            <p>LIVE</p>
+        </div>
+        <div id="mainNewsContainer">
+            <div id="news">
+            </div>
+            <div class="verLine">
+            </div>
+            <div id="summary">
+                <h2>LATEST NEWS</h2>
+                <div class="lineThird">
+                    <hr>
+                </div>
+                <div id="sidelineDetailsHolder">
+                    <div id="sideline">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="scripts.js" type="module"></script>
 </body>
 
